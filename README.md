@@ -1,6 +1,7 @@
 # ITI_G4_python_tasks
 
 ## Tasks on python :
-- Moving arrow pattern 
-- Grocrey 
-- Calculator 
+- **Task1:** 
+  - Moving arrow pattern
+  - Grocrey 
+  - Calculator 
