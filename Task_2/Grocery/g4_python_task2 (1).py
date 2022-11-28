@@ -203,23 +203,25 @@ while TT :
 
   else:
     TT = False
+    
+    #############################################################################################################################
 
-recipe = open("recipe.txt", "w")
-recipe.write("---------------------------------------------\n")
-recipe.write("-------- Welcome to ITI market ------------- \n")
-recipe.write("---------------------------------------------\n")
-data1 = csv.reader(open("bag.csv", "r"))
-for line in data1:
-  recipe.write("|| " + line[0] + " ||\t\t|| " + line[1] + " ||\t\t|| " + line[2] + "|| \n")
-  #recipe.writelines(line)
-  break
-recipe.write("---------------------------------------------\n")
-for jj in range(len(customer["bag"])):
-  recipe.write("\t" +  customer["bag"][jj] + "\t\t\t\t\t\t\t" + str(customer["quantity"][jj]) + "    \t\t\t\t\t" + str(customer["prices"][jj]) + "\n")
+# recipe = open("recipe.txt", "w")
+# recipe.write("---------------------------------------------\n")
+# recipe.write("-------- Welcome to ITI market ------------- \n")
+# recipe.write("---------------------------------------------\n")
+# data1 = csv.reader(open("bag.csv", "r"))
+# for line in data1:
+#   recipe.write("|| " + line[0] + " ||\t\t|| " + line[1] + " ||\t\t|| " + line[2] + "|| \n")
+#   #recipe.writelines(line)
+#   break
+# recipe.write("---------------------------------------------\n")
+# for jj in range(len(customer["bag"])):
+#   recipe.write("\t" +  customer["bag"][jj] + "\t\t\t\t\t\t\t" + str(customer["quantity"][jj]) + "    \t\t\t\t\t" + str(customer["prices"][jj]) + "\n")
 
-recipe.write("---------------------------------------------\n")
-recipe.write(">>>> Total price: " + str(bills) + "                       *" + "\n")
-recipe.write("---------------------------------------------\n")
-recipe.write("Thank you for shopping\n")
-recipe.write("                        HAVE A NICE DAY  :)  \n")
-recipe.write("#############################################\n")
+# recipe.write("---------------------------------------------\n")
+# recipe.write(">>>> Total price: " + str(bills) + "                       *" + "\n")
+# recipe.write("---------------------------------------------\n")
+# recipe.write("Thank you for shopping\n")
+# recipe.write("                        HAVE A NICE DAY  :)  \n")
+# recipe.write("#############################################\n")
