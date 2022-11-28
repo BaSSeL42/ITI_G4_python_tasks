@@ -5,3 +5,6 @@
   - Moving arrow pattern
   - Grocrey 
   - Calculator 
+- **Task2:**
+  - Grocery with data base
+  - ITI cane shop
